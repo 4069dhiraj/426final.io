@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+   <meta charset="utf-8" />
+   <title>La Plaque</title>
+   <link href="book.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header">
+        <a href="home.html"><div style="border: 3px solid #f1f1f1; filter:drop-shadow(12px 22px 800px rgb(11, 95, 9)); ">
+            <h1 >LA PLAQUE</h1>
+            <h4>LOUISIANA'S FLAVOR</h3></div></a>
+    </div>
+    
+    <div class="topnav">
+       <a href="home.html">HOME</a>
+       <a href="menu.html">MENU</a>
+       <div class="subnav">
+        <button class="subnavbtn">ABOUT</button>
+        <div class="subnav-content">
+            <a href="Restaurant.html">RESTAURANT</a>
+            <a href="Order.html">ORDERS</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        </div>
+       <a href="booking.html" style="float:right">BOOKING</a>
+    </div>
+ 
+   <div class="card">
+   
+      <h1>Customer Information</h1>
+
+      <form action="http://www.example.com/redball" method="post">
+        <div>
+            <fieldset id="custName">
+                <legend>NAME</legend>
+                <label for="nameBox">Name</label>
+                <input type="text" name="custName" id="nameBox" placeholder="First and Last Name" required />
+
+            </fieldset>
+        </div>
+        <div>
+            <fieldset id="custPhone">
+                <legend>PHONE</legend>
+                <label for = "phoneBox">Phone</label>
+                <input type = "tel" name = "custPhone" id = "phoneBox" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required />
+            </fieldset>
+        </div>
+        <div>
+            <fieldset id = "hereInfo">
+                <legend>DONE IN</legend>
+                <label for="delBox">Number of guests:</label>
+                <input type="text" name="hereInfo" id="delBox" required />
+                <label for ="delBox">Reservation time:</label>
+                <input type="time" name = "hereInfo" id = "delBox"/>
+             </fieldset>
+        </div>
+            
+         <input type="submit" value="Confirm your reservation">
+  
+      </form>
+</div>
+     
+    </form> 
+    <form action="http://www.example.com/redball" method="post">
+        <div class="card">
+            <fieldset id = "togo">
+                <legend>TOGO</legend>
+                <label for = "pickupBox"><p>Please click the crawfish for pick up order.</p><a href="Order.html"><div id="div1"><img src="runnin.jpg"></div></a> </label>
+             </fieldset>
+        </div>
+    </form>
+
+<footer>
+<div class="footer">
+    <strong>  LA PLAQUE </strong>  &#9743  4205 Ryan St, Lake Charles &nbsp 70605 
+        <p>Thank you for using our online ordering form for quick and easy
+            orders. Please enter your name and phone number and whether you
+            want to place an order for delivery or pickup. Note that required
+            values are marked by an asterisk (*). If you
+            want to place your order over the phone, call us at
+            &#9743<a href="tel:+13865557499">(386) 555-7499</a>.</p>
+</div>
+</footer>
+</body>
+</html>
