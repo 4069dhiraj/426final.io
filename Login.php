@@ -2,7 +2,8 @@
     Project Assignment
     
     Login page to get to admin panel
-    Author: Beijing to KTM to Beijing
+    Team: Beijing to KTM to Beijing
+    Author: Dhiraj Kapali
     Date: 11/15/2022   
 
     Filename: Login.php
