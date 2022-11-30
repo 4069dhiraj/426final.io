@@ -2,7 +2,8 @@
 	Project Assignment
 	
 	Log out of the system
-	Author: Beijing to KTM to Beijing
+	Team: Beijing to KTM to Beijing
+	Author: Dhiraj Kapali, Xiaoyi Sun
 	Date: 11/15/2022   
 
 	Filename: logout.php
