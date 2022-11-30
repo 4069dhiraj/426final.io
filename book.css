@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+ /* Author: Dhiraj Kapali , Xiaoyi Sun */
 @keyframes mymove {
    from {left: 0px;}
    to {left: 300px;}
