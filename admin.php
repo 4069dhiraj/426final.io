@@ -2,7 +2,8 @@
     Project Assignment
     
     Admin panel for displaying data 
-    Author: Beijing to KTM to Beijing
+    Team: Beijing to KTM to Beijing
+    Author: Suraj Thapa
     Date: 10/15/2022   
 
     Filename: admin.php
