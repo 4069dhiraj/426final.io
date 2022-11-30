@@ -7,7 +7,7 @@
     
     Starting Page of Pat's of henderson
     Team: Beijing to KTM
-    Author: Dhiraj Kapali
+    Author: Suraj Thapa
     Date: 10/15/2022   
 
     Filename: makepay.php
